@@ -37,3 +37,12 @@ main {
 header h1 {
   text-align: center;
 }
+
+.site_nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: papayawhip ;
+}
+

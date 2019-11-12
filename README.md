@@ -25,23 +25,24 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
-- [ ]  Explain benefit(s) using `client-side routing`?
+- [x]  Explain benefit(s) using `client-side routing`?
 
 > Answer:
+I believe the biggest benefits from client-side routing are how fluid the app/website feels.  Things just load almost as soon as your click them.  The initial loading may take longer than server side routing but I believe the initial wait time ultimately improves the user expierence.
 
 ## Project Set Up
 
 Follow these steps to set up and work on your project:
 
-- [ ]  Create a forked copy of this project.
+- [x]  Create a forked copy of this project.
 - [ ]  Add TL as collaborator on GitHub.
-- [ ]  Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
-- [ ]  Implement the project on this branch, committing changes regularly.
+- [x]  Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x]  Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
+- [x]  Implement the project on this branch, committing changes regularly.
 - [ ]  Push commits: `git push origin <firstName-lastName>`.
 - [ ]  **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
-- [ ]  **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
-- [ ]  **RUN** `yarn start` or `npm start` to fire up your React application.
+- [x]  **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
+- [x]  **RUN** `yarn start` or `npm start` to fire up your React application.
 
 ### Exceeded rate limits?
 
@@ -64,13 +65,13 @@ Construct a Single Page Application with React.
 **Your finished project must include all of the following requirements:**
 
 _Display Data from a Server API_
-- [ ]  Fetch a list of characters from the Rick and Morty API's Characters endpoint *`https://rickandmortyapi.com/api/character/`* and render them to the screen.
-- [ ]  You must display at least one element for each character.
+- [x]  Fetch a list of characters from the Rick and Morty API's Characters endpoint *`https://rickandmortyapi.com/api/character/`* and render them to the screen.
+- [x]  You must display at least one element for each character.
 
 _Add a Router to this application using [React Router](https://reacttraining.com/react-router/web/guides/quick-start)._
 
-- [ ]  Hook up the Welcome page(Home page) and a Characters page with React Router.
-- [ ]  Use a styling or component library for part of or all of your application. (Pick at least 1 of: [s](https://react-bootstrap.github.io/)tyled-components or Reactstrap).
+- [x]  Hook up the Welcome page(Home page) and a Characters page with React Router.
+- [x]  Use a styling or component library for part of or all of your application. (Pick at least 1 of: - [x](https://react-bootstrap.github.io/)tyled-components or Reactstrap).
 
 _Add 'Search by Name' feature._
 
@@ -79,10 +80,10 @@ _Add 'Search by Name' feature._
 
 ### **Required best practices:**
 
-- [ ]  Consistent naming. Examples: variables, functions, Components, and file/folder organization.
-- [ ]  Consistent spacing. Examples: line breaks, around arguments and before/after functions.
-- [ ]  Consistent quotation usage.
-- [ ]  Spell-check.
+- [x]  Consistent naming. Examples: variables, functions, Components, and file/folder organization.
+- [x]  Consistent spacing. Examples: line breaks, around arguments and before/after functions.
+- [x]  Consistent quotation usage.
+- [x]  Spell-check.
 - [ ]  Schedule time to review, refine and reassess your work.
 
 It is better to submit a challenge that meets [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product) than one that attempts too much and fails.

@@ -1,16 +1,24 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import { Container, Card, Image} from "semantic-ui-react";
 
-export default function CharacterList() {
-  // TODO: Add useState to track data from useEffect
-
-  useEffect(() => {
-    // TODO: Add API Request here - must run in `useEffect`
-    //  Important: verify the 2nd `useEffect` parameter: the dependancies array!
-  }, []);
+export default function CharacterCard(props) {
+  const id = props.match.params.id;
+  const character = props.rmData.find(char => `${char.id}` === id) || {};
 
   return (
-    <section className="character-list">
-      <h2>TODO: `array.map()` over your state here!</h2>
-    </section>
+    <Container>
+      <Card
+        style={{
+          marginTop: "5%",
+          marginLeft: "35%"
+        }}
+      >
+        <Image src={character.image} size="large" />
+        <Card.Content>
+          <Card.Header>{character.name}</Card.Header>
+          <Card.Meta>Species:{character.species}</Card.Meta>
+        </Card.Content>
+      </Card>
+    </Container>
   );
 }
